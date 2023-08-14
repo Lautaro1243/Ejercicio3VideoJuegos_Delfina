@@ -18,7 +18,13 @@ object delfina {
 	
 	method diversion(){
 		return nivelDeDiversion
-	} 
+	}
+
+	method finDeGamer(){
+		self.jugar(pokemon)
+		self.jugar(mario)
+		self.jugar(arkanoid)
+	}
 }
 
 
